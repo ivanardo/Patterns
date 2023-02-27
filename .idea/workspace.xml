@@ -4,46 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="Factory Method">
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/app/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/MacOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/MacOSCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/GUIFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/MacOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/WindowsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/builders/CarManualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/cars/CarType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/cars/Manual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/components/GPSNavigator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/components/Transmission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/components/TripComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/builder/directior/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/HtmlButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/HtmlDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/WindowsDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/Aliens/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Alien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/Aliens/Grey.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Grey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/Aliens/Xenomorph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Xenomorph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/Detect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Detect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/UfoDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/UfoDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/FactoryMethod/XenoDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/XenoDetect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Creational patterns/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.builder.Demo">
+  <component name="RunManager" selected="Application.prototype.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="abstractFactory.Demo" />
       <module name="Creational patterns" />
@@ -135,8 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="prototype.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prototype.Demo" />
+      <module name="Creational patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.prototype.Demo" />
         <item itemvalue="Application.builder.Demo" />
         <item itemvalue="Application.factoryMethod2.Demo" />
         <item itemvalue="Application.Demo" />
@@ -155,7 +136,7 @@
       <workItem from="1675695258282" duration="2100000" />
       <workItem from="1676478192728" duration="4741000" />
       <workItem from="1676570160805" duration="102000" />
-      <workItem from="1677521471155" duration="2006000" />
+      <workItem from="1677521471155" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Method">
       <created>1675697230590</created>
@@ -164,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675697230590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1677523581953</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677523581953</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Method" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
