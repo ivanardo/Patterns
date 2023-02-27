@@ -1,4 +1,4 @@
-package FactoryMethod.Aliens;
+package factoryMethod.Aliens;
 
 public class Grey implements Alien{
     @Override

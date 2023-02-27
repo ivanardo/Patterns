@@ -1,6 +1,6 @@
-package FactoryMethod;
+package factoryMethod;
 
-import FactoryMethod.Aliens.Alien;
+import factoryMethod.Aliens.Alien;
 
 public abstract class Detect {
     public void meeting() {

@@ -1,6 +1,8 @@
-import FactoryMethod.Aliens.Alien;
-import FactoryMethod.Aliens.Grey;
-import FactoryMethod.Aliens.Xenomorph;
+package factoryMethod;
+
+import factoryMethod.Aliens.Alien;
+import factoryMethod.Aliens.Grey;
+import factoryMethod.Aliens.Xenomorph;
 
 import java.time.LocalDate;
 

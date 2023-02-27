@@ -1,4 +1,4 @@
-package FactoryMethod.Aliens;
+package factoryMethod.Aliens;
 
 public interface Alien {
     void action();

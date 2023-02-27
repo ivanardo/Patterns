@@ -1,7 +1,7 @@
-package FactoryMethod;
+package factoryMethod;
 
-import FactoryMethod.Aliens.Alien;
-import FactoryMethod.Aliens.Grey;
+import factoryMethod.Aliens.Alien;
+import factoryMethod.Aliens.Grey;
 
 public class UfoDetect extends Detect{
     @Override
