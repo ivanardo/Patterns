@@ -4,18 +4,166 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="Prototype">
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/middleware/Middleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/middleware/RoleCheckMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/middleware/ThrottlingMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/middleware/UserExistsMiddleware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/chain_of_responsibility/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/iterators/FacebookIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/iterators/LinkedInIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/iterators/ProfileIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/profile/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/social_networks/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/social_networks/LinkedIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/social_networks/SocialNetwork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/iterator/spammer/SocialSpammer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/AddButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/DeleteButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/SaveButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/components/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/mediator/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/mediator/mediator/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/listeners/EmailNotificationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/listeners/EventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/listeners/LogOpenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/observer/publisher/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/template_method/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/template_method/networks/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/template_method/networks/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/template_method/networks/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/commands/CommandHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/commands/CopyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/commands/CutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/commands/PasteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/сommand/editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/MultiThreadSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/creational/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/adabpter/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/adabpter/adapters/SquarePegAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/adabpter/round/RoundHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/adabpter/round/RoundPeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/adabpter/square/SquarePeg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/devices/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/devices/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/devices/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/remotes/AdvancedRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/remotes/BasicRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/bribge/remotes/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/editor/ImageEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/BaseShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/composite/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/decorators/CompressionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/decorators/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/decorators/DataSourceDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/decorators/EncryptionDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/decorator/decorators/FileDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/facade/VideoConversionFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/AudioMixer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/BitrateReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/CodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/MPEG4CompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/OggCompressionCodec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/facade/some_complex_media_library/VideoFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/flyweight/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/flyweight/forest/Forest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/flyweight/trees/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/flyweight/trees/TreeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/flyweight/trees/TreeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/downloader/YouTubeDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/proxy/YouTubeCacheProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/some_cool_media_library/ThirdPartyYouTubeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/some_cool_media_library/ThirdPartyYouTubeLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/structurial/proxy/some_cool_media_library/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/Creational patterns.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/buttons/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/MacOSButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/buttons/MacOSButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/buttons/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/buttons/WindowsButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/checkboxes/Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/MacOSCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/checkboxes/MacOSCheckbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/checkboxes/WindowsCheckbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/checkboxes/WindowsCheckbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/GUIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factories/GUIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/MacOSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factories/MacOSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/abstractFactory/factories/WindowsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/abstractFactory/factories/WindowsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/builders/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builders/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/builders/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builders/CarBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/builders/CarManualBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/builders/CarManualBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/cars/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/cars/CarType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/cars/CarType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/cars/Manual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/cars/Manual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/components/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/components/GPSNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/components/GPSNavigator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/components/Transmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/components/Transmission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/components/TripComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/components/TripComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/builder/directior/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/builder/directior/Director.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Alien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/Aliens/Alien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Grey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/Aliens/Grey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Aliens/Xenomorph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/Aliens/Xenomorph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Detect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/Detect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/UfoDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/UfoDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod/XenoDetect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod/XenoDetect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/buttons/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/HtmlButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/buttons/HtmlButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/buttons/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/buttons/WindowsButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/factory/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/HtmlDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/factory/HtmlDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/factoryMethod2/factory/WindowsDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/factoryMethod2/factory/WindowsDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/prototype/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Creational patterns/src/prototype/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/creational/prototype/shapes/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Structurial_patterns">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,31 +185,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Dev/tutorials/spring-web-modules/spring-resttemplate",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev/tutorials/spring-web-modules/spring-resttemplate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;13c062e276dbe5f50f96c2126bbf9ea8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.prototype.Demo">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="behavorial.template_method.networks" />
+      <recent name="behavorial.мediator.mediator" />
+      <recent name="behavorial.mediator.мediator" />
+      <recent name="behavorial.iterator.profile" />
+      <recent name="behavorial.observer.listeners" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev\edu\Patterns\src\creational" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractFactory.Demo" />
-      <module name="Creational patterns" />
+      <option name="MAIN_CLASS_NAME" value="behavorial.template_method.Demo" />
+      <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractFactory.*" />
+          <option name="PATTERN" value="behavorial.template_method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,19 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryMethod.Main" />
-      <module name="Creational patterns" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="builder.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.Demo" />
-      <module name="Creational patterns" />
+    <configuration name="behavorial.iterator.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.iterator.Demo" />
+      <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="builder.*" />
+          <option name="PATTERN" value="behavorial.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="factoryMethod2.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="factoryMethod2.Demo" />
-      <module name="Creational patterns" />
+    <configuration name="behavorial.mediator.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.mediator.Demo" />
+      <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factoryMethod2.*" />
+          <option name="PATTERN" value="behavorial.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,26 +256,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prototype.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototype.Demo" />
-      <module name="Creational patterns" />
+    <configuration name="behavorial.observer.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.observer.Demo" />
+      <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.*" />
+          <option name="PATTERN" value="behavorial.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="behavorial.сommand.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.сommand.Demo" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavorial.сommand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StructurialPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Structurial_patterns.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.structurial_patterns.StructurialPatternsApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.prototype.Demo" />
-        <item itemvalue="Application.builder.Demo" />
-        <item itemvalue="Application.factoryMethod2.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.behavorial.mediator.Demo" />
+        <item itemvalue="Application.behavorial.iterator.Demo" />
+        <item itemvalue="Application.behavorial.observer.Demo" />
+        <item itemvalue="Application.behavorial.сommand.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +310,19 @@
       <workItem from="1675695258282" duration="2100000" />
       <workItem from="1676478192728" duration="4741000" />
       <workItem from="1676570160805" duration="102000" />
-      <workItem from="1677521471155" duration="2894000" />
+      <workItem from="1677521471155" duration="3034000" />
+      <workItem from="1677604440541" duration="29000" />
+      <workItem from="1677607023594" duration="3073000" />
+      <workItem from="1677690402116" duration="9000" />
+      <workItem from="1677693214862" duration="4314000" />
+      <workItem from="1677777494259" duration="612000" />
+      <workItem from="1678538765699" duration="6851000" />
+      <workItem from="1678626754463" duration="6804000" />
+      <workItem from="1678815755255" duration="2950000" />
+      <workItem from="1678897029145" duration="4090000" />
+      <workItem from="1679323694965" duration="657000" />
+      <workItem from="1679324440603" duration="5718000" />
+      <workItem from="1679399965467" duration="3742000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Method">
       <created>1675697230590</created>
@@ -152,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677523581953</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Prototype">
+      <created>1677524456152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677524456152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +365,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Factory Method" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prototype" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/behavorial/iterator/Demo.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
