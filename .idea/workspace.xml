@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="add state">
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayByCreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayByPayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayStrategy.java" afterDir="false" />
+    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="add strategy">
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/shapes/CompoundShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/shapes/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/visitor/object_siralization/visitor/XMLExportVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,26 +106,13 @@
       <recent name="C:\Dev\edu\Patterns\src\creational" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavorial.strategy.online_payment.Demo">
+  <component name="RunManager" selected="Application.behavorial.visitor.object_siralization.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavorial.template_method.Demo" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavorial.template_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="behavorial.mediator.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavorial.mediator.Demo" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavorial.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,6 +159,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="behavorial.visitor.object_siralization.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.visitor.object_siralization.Demo" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavorial.visitor.object_siralization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StructurialPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Structurial_patterns.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.structurial_patterns.StructurialPatternsApplication" />
@@ -179,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavorial.visitor.object_siralization.Demo" />
         <item itemvalue="Application.behavorial.strategy.online_payment.Demo" />
         <item itemvalue="Application.behavorial.state.audioplayer.Demo" />
         <item itemvalue="Application.behavorial.memento.Demo" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.behavorial.mediator.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1679324440603" duration="5718000" />
       <workItem from="1679399965467" duration="3742000" />
       <workItem from="1679493292761" duration="7689000" />
-      <workItem from="1679566914771" duration="3253000" />
+      <workItem from="1679566914771" duration="5835000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Method">
       <created>1675697230590</created>
@@ -263,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679503251947</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add strategy">
+      <created>1679575339371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679575339371</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,7 +308,8 @@
     <MESSAGE value="add patterns" />
     <MESSAGE value="add memento" />
     <MESSAGE value="add state" />
-    <option name="LAST_COMMIT_MESSAGE" value="add state" />
+    <MESSAGE value="add strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
