@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="add memento">
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/states/LockedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/states/PlayingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/states/ReadyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/states/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/ui/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/behavorial/state/audioplayer/ui/UI.java" afterDir="false" />
+    <list default="true" id="0a2b88af-adab-46a1-976a-4d9eb5b2a23f" name="Changes" comment="add state">
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/behavorial/strategy/online_payment/strategies/PayStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,36 +94,23 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="behavorial.strategy.online_payment.strategies" />
+      <recent name="behavorial.state.audioplayer.states" />
       <recent name="behavorial.template_method.networks" />
       <recent name="behavorial.мediator.mediator" />
       <recent name="behavorial.mediator.мediator" />
-      <recent name="behavorial.iterator.profile" />
-      <recent name="behavorial.observer.listeners" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Dev\edu\Patterns\src\creational" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.behavorial.state.audioplayer.Demo">
+  <component name="RunManager" selected="Application.behavorial.strategy.online_payment.Demo">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavorial.template_method.Demo" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="behavorial.template_method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="behavorial.iterator.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavorial.iterator.Demo" />
-      <module name="Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavorial.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,6 +157,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="behavorial.strategy.online_payment.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavorial.strategy.online_payment.Demo" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavorial.strategy.online_payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StructurialPatternsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Structurial_patterns.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.structurial_patterns.StructurialPatternsApplication" />
@@ -180,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.behavorial.strategy.online_payment.Demo" />
         <item itemvalue="Application.behavorial.state.audioplayer.Demo" />
         <item itemvalue="Application.behavorial.memento.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.behavorial.mediator.Demo" />
-        <item itemvalue="Application.behavorial.iterator.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +211,8 @@
       <workItem from="1679323694965" duration="657000" />
       <workItem from="1679324440603" duration="5718000" />
       <workItem from="1679399965467" duration="3742000" />
-      <workItem from="1679493292761" duration="7014000" />
+      <workItem from="1679493292761" duration="7689000" />
+      <workItem from="1679566914771" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="Factory Method">
       <created>1675697230590</created>
@@ -256,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679500018353</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add state">
+      <created>1679503251947</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679503251947</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +298,8 @@
     <MESSAGE value="Prototype" />
     <MESSAGE value="add patterns" />
     <MESSAGE value="add memento" />
-    <option name="LAST_COMMIT_MESSAGE" value="add memento" />
+    <MESSAGE value="add state" />
+    <option name="LAST_COMMIT_MESSAGE" value="add state" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
